@@ -202,5 +202,11 @@
     "answer": "s.substringtoUpperCase[1]",
     "correct": false,
     "timestamp": 1661379802749
+  },
+  {
+    "name": "Capitalize",
+    "answer": "s.substringtoUpperCase(1)",
+    "correct": false,
+    "timestamp": 1661379808804
   }
 ]
