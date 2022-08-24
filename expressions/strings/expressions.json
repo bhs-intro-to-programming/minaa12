@@ -94,5 +94,11 @@
     "answer": "s1+s2",
     "correct": true,
     "timestamp": 1661378755839
+  },
+  {
+    "name": "All but first",
+    "answer": "s[1]",
+    "correct": false,
+    "timestamp": 1661378887914
   }
 ]
