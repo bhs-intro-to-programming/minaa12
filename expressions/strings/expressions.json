@@ -166,5 +166,11 @@
     "answer": "s.substrin",
     "correct": false,
     "timestamp": 1661379712852
+  },
+  {
+    "name": "Capitalize",
+    "answer": "s.substring",
+    "correct": false,
+    "timestamp": 1661379739485
   }
 ]
