@@ -112,5 +112,11 @@
     "answer": "s.substring(s.su)",
     "correct": false,
     "timestamp": 1661379170636
+  },
+  {
+    "name": "First three",
+    "answer": "s.substring(0,3)",
+    "correct": true,
+    "timestamp": 1661379232381
   }
 ]
