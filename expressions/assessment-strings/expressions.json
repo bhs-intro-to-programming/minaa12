@@ -12,5 +12,12 @@
     "answer": "s.substring[toLowerCase]",
     "correct": false,
     "timestamp": 1661897951213
+  },
+  {
+    "name": "lower case",
+    "canonical": "s.toLowerCase()",
+    "answer": "s.substring.toLowerCase()",
+    "correct": false,
+    "timestamp": 1661897982902
   }
 ]
