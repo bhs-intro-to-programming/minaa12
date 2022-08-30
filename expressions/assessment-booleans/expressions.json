@@ -33,5 +33,12 @@
     "answer": "fast&&strong",
     "correct": true,
     "timestamp": 1661897299025
+  },
+  {
+    "name": "Can go to prom?",
+    "canonical": "isSenior || invitedBySenior",
+    "answer": "isSenior||invitedBySenior",
+    "correct": true,
+    "timestamp": 1661897331922
   }
 ]
