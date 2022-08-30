@@ -33,5 +33,12 @@
     "answer": "60*60*24",
     "correct": true,
     "timestamp": 1661895995326
+  },
+  {
+    "name": "Difference",
+    "canonical": "a - b",
+    "answer": "a-b",
+    "correct": true,
+    "timestamp": 1661896004703
   }
 ]
