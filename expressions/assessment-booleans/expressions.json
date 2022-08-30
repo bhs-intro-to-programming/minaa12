@@ -54,5 +54,12 @@
     "answer": "inTheClass||isProctor",
     "correct": true,
     "timestamp": 1661897437829
+  },
+  {
+    "name": "Will we skip our trip to the store?",
+    "canonical": "!storeOpen || linesTooLong",
+    "answer": "!storeOpen||linesTooLong",
+    "correct": true,
+    "timestamp": 1661897462878
   }
 ]
