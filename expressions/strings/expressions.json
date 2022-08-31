@@ -103,5 +103,12 @@
     "answer": "s.substring(s)",
     "correct": false,
     "timestamp": 1661983171628
+  },
+  {
+    "name": "First character",
+    "canonical": "s[0]",
+    "answer": "s.substring[0]",
+    "correct": false,
+    "timestamp": 1661983175500
   }
 ]
