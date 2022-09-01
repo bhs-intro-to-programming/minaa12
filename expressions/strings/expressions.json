@@ -117,5 +117,12 @@
     "answer": "'foo'.length",
     "correct": false,
     "timestamp": 1661984125384
+  },
+  {
+    "name": "More indexing",
+    "canonical": "'o'",
+    "answer": "'o'",
+    "correct": true,
+    "timestamp": 1662069451314
   }
 ]
