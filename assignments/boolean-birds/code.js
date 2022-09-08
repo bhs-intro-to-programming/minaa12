@@ -30,3 +30,5 @@ return s1 === 'Flobby' || s1 === 'Bloggy'
 function isSpotted (s1){
   return s1 === 'Flobby' || s1 === 'Flibble'
 }
+function isNotRed (s1){
+  return s1 === 'Bloggy' || s1 === 'Globby'
