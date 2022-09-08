@@ -32,3 +32,4 @@ function isSpotted (s1){
 }
 function isNotRed (s1){
   return s1 === 'Bloggy' || s1 === 'Globby'
+}
