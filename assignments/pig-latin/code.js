@@ -31,3 +31,6 @@
 //
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
+const pigLatin= (mina)=> {
+  mina.search (/[aeiou]/)
+}
