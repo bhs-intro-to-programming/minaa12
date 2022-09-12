@@ -32,5 +32,6 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 const pigLatin= (word)=> {
-  return word.search (/[aeiou]/)
+  let i = word.search (/[aeiou]/);
+  return word.substring(i);
 }
