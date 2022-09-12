@@ -31,6 +31,6 @@
 //
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
-const pigLatin= (mina)=> {
-var hyyh= mina.search (/[aeiou]/)
+const pigLatin= (word)=> {
+  return word.search (/[aeiou]/)
 }
