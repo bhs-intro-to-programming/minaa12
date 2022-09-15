@@ -23,3 +23,4 @@
  *
  *  clear()
  */
+drawFilledCircle(0,height/2,25,'green')
