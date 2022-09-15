@@ -36,6 +36,6 @@ const pigLatin= (word)=> {
   return word.substring(i)+word.substring(0,i)+'ay';
 }
 const advancedPigLatin= (word)=> {
-  var i = word.search (/[aeiou]/);
+  let i = word.search (/[aeiou]/);
   return i === 0 ? word+'way' : word.substring(i,word.length)+word.substring(0,i)+'ay'
 }
