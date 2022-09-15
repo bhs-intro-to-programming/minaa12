@@ -25,3 +25,4 @@
  */
 let radius = 12
 drawFilledCircle(radius,height/2,radius,'green')
+drawFilledCircle(radius+radius+radius,height/2,radius, 'green')
