@@ -23,4 +23,5 @@
  *
  *  clear()
  */
-drawFilledCircle(25,height/2,25,'green')
+let radius = 12
+drawFilledCircle(radius,height/2,radius,'green')
