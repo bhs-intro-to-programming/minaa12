@@ -32,7 +32,7 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 const pigLatin= (word)=> {
-  var i = word.search (/[aeiou]/);
+  let i = word.search (/[aeiou]/);
   return word.substring(i)+word.substring(0,i)+'ay';
 }
 const advancedPigLatin= (word)=> {
