@@ -22,5 +22,11 @@
  *  drawFilledTriangle(x1, y1, x2, y2, x3, y3, color)
  *
  *  clear()
- */let radius = 12
+ */
 
+let radius = 12;
+let diameter = radius * 2;
+
+//while (x<width-diameter) {
+  drawFilledCircle(100, 200, radius, 'red')
+//}
