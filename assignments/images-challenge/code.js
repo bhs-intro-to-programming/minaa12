@@ -27,7 +27,7 @@
 let radius = 12;
 let diameter = radius * 2;
 for (let x = 0; x < 20; x++) {
-  drawFilledCircle(radius+x*24+11, height/2, radius, 'red')
+  drawFilledCircle(radius+x*24+10, height/2, radius, 'red')
 }
 //while (x<width-diameter) {
   //drawFilledCircle(radius, height/2, radius, 'red')
