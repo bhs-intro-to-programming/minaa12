@@ -22,7 +22,5 @@
  *  drawFilledTriangle(x1, y1, x2, y2, x3, y3, color)
  *
  *  clear()
- */
-let radius = 12
-drawFilledCircle(radius,height/2,radius,'green')
-drawFilledCircle(radius+radius+radius,height/2,radius, 'green')
+ */let radius = 12
+
