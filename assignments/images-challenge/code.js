@@ -33,7 +33,7 @@ const lineOfCircles = (radius) => {
 
 
 
-lineOfCircles(36)
+lineOfCircles(12)
 
 
 
