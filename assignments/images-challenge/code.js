@@ -31,9 +31,9 @@ const lineOfCircles = (radius) => {
   }
 };
 
-lineOfCircles(12)
 
 
-//while (x<width-diameter) {
-  //drawFilledCircle(radius, height/2, radius, 'red')
-//}
+lineOfCircles(36)
+
+
+
