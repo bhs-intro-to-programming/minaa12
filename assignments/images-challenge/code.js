@@ -24,11 +24,14 @@
  *  clear()
  */
 
-let radius = 12;
-let diameter = radius * 2;
-for (let x = 0; x < 20; x++) {
-  drawFilledCircle(radius+x*24+12, height/2, radius, 'red')
+const lineOfCircles = (radius) => {
+  let diameter = radius * 2;
+  for (let x = 0; x < 20; x++) {
+    drawFilledCircle(radius + x * 24 + 12, height / 2, radius, 'red')
+  }
 }
+
+
 //while (x<width-diameter) {
   //drawFilledCircle(radius, height/2, radius, 'red')
 //}
