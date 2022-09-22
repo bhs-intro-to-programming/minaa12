@@ -26,7 +26,7 @@
 
 const lineOfCircles = (radius) => {
   let diameter = radius * 2;
-  for (let x = 0; x < width/diameter; x++) {
+  for (let x = 0; x < width; x++) {
     drawFilledCircle(radius + x * diameter + radius, height / 2, radius, 'red')
   }
 };
