@@ -39,9 +39,9 @@ const lineOfCirclesAlternating = (radius) => {
   let diameter = radius * 2;
   let m = 'red'
   for (let x = 0; x * diameter + diameter < width; x++) {
-    drawFilledCircle(radius + x * diameter + radius, height / 2, radius, 'red')
-if (c == 'red') {
-  c= 'blue'
+    drawFilledCircle(radius + x * diameter + radius, height / 2, radius, m)
+if (m == 'red') {
+  m= 'blue'
 } else {m = 'red'}
  }
 };
