@@ -42,7 +42,7 @@ const lineOfCirclesAlternating = (radius) => {
     drawFilledCircle(radius + x * diameter + radius, height / 2, radius, 'red')
 if (c == 'red') {
   c= 'blue'
-} else {c = 'red'}
+} else {m = 'red'}
  }
 };
 
