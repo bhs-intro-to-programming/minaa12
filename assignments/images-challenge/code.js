@@ -33,7 +33,13 @@ const lineOfCircles = (radius) => {
 
 
 
-lineOfCircles(12)
+//lineOfCircles(12)
 
+const lineOfCirclesAlternating = (radius) => {
+  let diameter = radius * 2;
+  for (let x = 0; x * diameter + diameter < width; x++) {
+    drawFilledCircle(radius + x * diameter + radius, height / 2, radius, 'red')
+  }
+};
 
-
+lineOfCirclesAlternating(12)
