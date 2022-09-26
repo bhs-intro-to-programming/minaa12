@@ -40,10 +40,10 @@ const lineOfCirclesAlternating = (radius) => {
   let m = 'red'
   for (let x = 0; x * diameter + diameter < width; x++) {
     drawFilledCircle(radius + x * diameter + radius, height / 2, radius, m)
-if (m == 'red') {
-  m= 'blue'
-} else {m = 'red'}
- }
+    if (m == 'red') {
+      m = 'blue'
+    } else { m = 'red' }
+  }
 };
 
 lineOfCirclesAlternating(12)
