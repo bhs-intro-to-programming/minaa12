@@ -11,7 +11,7 @@ const hypotenuse = (a, b) => {
   return a*a + b*b
 }
 
-const maxRadius = (
+//const maxRadius = (a, b) 
 
 const canSleepIn = (weekday, vacation) => {
   return !weekday || vacation 
