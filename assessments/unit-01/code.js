@@ -11,8 +11,16 @@ const hypotenuse = (a, b) => {
   return a*a + b*b
 }
 
-//const maxRadius = (a, b) 
 
 const canSleepIn = (weekday, vacation) => {
   return !weekday || vacation 
 }
+
+const numCircles = (radius, width) => {
+  return (width / radius) * 2
+}
+
+const offset = (drawingarea, figure) => {
+return (drawingarea - figure) / 2 
+}
+
