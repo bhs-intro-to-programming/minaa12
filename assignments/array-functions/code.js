@@ -1,1 +1,1 @@
-const countTens
+const countTens = ()
