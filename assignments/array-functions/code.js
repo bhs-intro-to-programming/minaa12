@@ -1,1 +1,3 @@
-const countTens = ()
+const countTens = (arrayofnumbers) => {
+  return arrayofnumbers.length
+}
