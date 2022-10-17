@@ -36,12 +36,12 @@ const simplePigLatin = (word, firstvowel) => {
 const randomCharacter = (string) => {
   return
 }
-//const randomCharacterUpDown = (string) => {
+const randomCharacterUpDown = (string) => {
   return 
 }
-//const isAllUpperCase = (string) => {
+const isAllUpperCase = (string) => {
   return stringtoUpperCase. 
 }
-//const sameIgnoringCase = (stringone, stringtwo) => {
+const sameIgnoringCase = (stringone, stringtwo) => {
   return 
 }
