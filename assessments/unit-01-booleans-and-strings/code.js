@@ -12,9 +12,36 @@ const rand = (n) => Math.floor(Math.random() * n);
 const fireAlarm = (pulled,detected,planned) => {
   return pulled || detected || planned
 }
-const canBePresident = () => {
-  return
+const canBePresident = (age, borncitezen, yearslived) => {
+  return age && borncitezen && yearslived
 }
 const willSeeTweet = (follows, retweeted, blocked) => {
   return follows || retweeted && !blocked 
+}
+const evenGreaterThanZero = (number) => {
+  return even && number>0 
+}
+const isLeapYear = (year) => {
+  return 
+}
+const firstAndLast = (twocharacterstring) => {
+  return 
+}
+const swapFrontAndBack = (string) => {
+  return 
+}
+const simplePigLatin = (word, firstvowel) => {
+  return
+}
+const randomCharacter = (string) => {
+  return
+}
+const randomCharacterUpDown = (string) => {
+  return 
+}
+const isAllUpperCase = (string) => {
+  return stringtoUpperCase. 
+}
+const sameIgnoringCase = (stringone, stringtwo) => {
+  return 
 }
