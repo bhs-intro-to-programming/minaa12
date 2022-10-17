@@ -40,7 +40,7 @@ const randomCharacterUpDown = (string) => {
   return 
 }
 const isAllUpperCase = (string) => {
-  return stringtoUpperCase. 
+  return  
 }
 const sameIgnoringCase = (stringone, stringtwo) => {
   return 
