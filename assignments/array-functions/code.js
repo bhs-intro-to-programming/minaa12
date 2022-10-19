@@ -18,7 +18,8 @@ const evens = (arrayofnumbers) => {
   let e = []
   for (let i = 0; i < arrayofnumbers.length; i++) {
     if(arrayofnumbers[i] % 2 === 0 ){
-e.push[arrayofnumbers[i]]
+  e.push[arrayofnumbers[i]]
+  e++
     }
   }
   return e
