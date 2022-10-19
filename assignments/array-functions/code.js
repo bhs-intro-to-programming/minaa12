@@ -1,5 +1,9 @@
 const countTens = (arrayofnumbers) => {
-  return arrayofnumbers.length
+  let ntens = 0
+  for (let i = 0; i < arrayofnumbers.length; i++) {
+   if(arrayofnumbers[i] === 10) {
+     ntens++
+   }
+  }
+  return ntens
 }
-m=[]
-m.push(5)
