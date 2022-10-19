@@ -14,7 +14,5 @@ const sum = (arrayofnumbers) => {
   }
   return s
 }
-const evens = (arrayofnumbers) => {
+//const evens = (arrayofnumbers) => {
   let e = 0
-  for (let i = 0; i < arrayofnumbers.length; i++) {
-    i
