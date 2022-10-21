@@ -12,7 +12,7 @@
   "It tests whether limit and max are both prime numbers.",
   "10",
   "xs[xs.length - 1]",
-  null,
+  "2",
   "0",
   "xs[2]",
   "300",
