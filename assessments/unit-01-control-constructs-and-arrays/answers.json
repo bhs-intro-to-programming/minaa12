@@ -5,5 +5,8 @@
   "i < 10",
   "100",
   "It’s random but definitely less than 10.",
-  "20"
+  "20",
+  null,
+  null,
+  "When Math.random() returns a number greater than 0.01"
 ]
