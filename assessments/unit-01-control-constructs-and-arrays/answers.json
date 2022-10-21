@@ -14,7 +14,7 @@
   "xs[xs.length - 1]",
   null,
   null,
-  null,
+  "xs[2]",
   null,
   null,
   "The sum of the numbers from 0 to numbers.length - 1.",
