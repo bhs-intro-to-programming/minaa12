@@ -1,4 +1,6 @@
 [
   "Yes",
-  "Both foo and bar"
+  "Both foo and bar",
+  null,
+  "let i = 0"
 ]
