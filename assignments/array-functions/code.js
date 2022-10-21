@@ -32,3 +32,10 @@ const anyOverOneHundred = (arrayofnumbers) => {
     return false
 
   }
+const pyramid = (p) => {
+  let a = []
+  for (let i = 1; i <= p; i++) {
+    a.push(i)
+  }
+  return a
+}
