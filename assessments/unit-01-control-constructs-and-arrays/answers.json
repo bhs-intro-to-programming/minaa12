@@ -15,7 +15,7 @@
   null,
   null,
   "xs[2]",
-  null,
+  "300",
   null,
   "The sum of the numbers from 0 to numbers.length - 1.",
   "Produces a new array containing all the words in words in uppercase."
