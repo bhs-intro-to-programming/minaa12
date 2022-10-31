@@ -16,3 +16,42 @@ const firstHalf = (word) => {
 const secondHalf = (word) => {
 return (word.length/2, word.length)
 }
+const upDown = () => {
+  return
+}
+const firstFewEveryOther = () => {
+  return
+}
+const upDownLastCharacter = () => {
+  return
+}
+const firstAndLast = () => {
+  return
+}
+const swapFrontAndBack = () => {
+  return
+}
+const simplePigLatin = () => {
+  return
+}
+const randomCharacter = () => {
+  return 
+}
+const randomCharacterUpDown = () => {
+return
+}
+const isAllUpperCase = () => {
+return
+}
+const sameIgnoringCase = () => {
+  return 
+}
+const firstName = () => {
+  return
+}
+const lastName = () => {
+  return
+}
+const initials = () => {
+  return
+}
