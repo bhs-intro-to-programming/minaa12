@@ -13,3 +13,6 @@ const rand = (n) => Math.floor(Math.random() * n);
 const firstHalf = (word) => {
   return (0,word.length/2)
 }
+const secondHalf = (word) => {
+return (word.length/2, word.length)
+}
