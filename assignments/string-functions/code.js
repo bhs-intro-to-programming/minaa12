@@ -35,3 +35,6 @@ const allButFirstAndList = (s) => {
 const allButFirst = (s) => {
   return s.slice(1,s.length)
 }
+const lastCharacter = (s) => {
+  return s.slice(s.length-1)
+}
