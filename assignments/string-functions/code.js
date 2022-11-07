@@ -52,6 +52,7 @@ const stringContains = (s1,s2) => {
 }
 
 const findFnord = (s) => {
+  let i = 0
   if (i != fnord) 
   return (-1)
 }
