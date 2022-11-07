@@ -39,5 +39,5 @@ const lastCharacter = (s) => {
   return s.slice(s.length-1)
 }
 const firstCharacter = (s) => {
-  return s.slice(1)
+  return (0)
 }
