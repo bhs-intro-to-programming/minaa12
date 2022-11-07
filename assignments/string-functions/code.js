@@ -17,3 +17,7 @@ const isAllUpperCase = (string) => {
 const capitalizeFirstThree = (s) => {
   return s.slice(0,3).toUpperCase() + s.slice(3).toLowerCase()
 }
+
+const capitalize = (s) => {
+  return s.toUpperCase()
+}
