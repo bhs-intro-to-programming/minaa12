@@ -32,3 +32,6 @@ const firstThree = (s) => {
 const allButFirstAndList = (s) => {
   return s.slice(1,s.length-1)
 }
+const allButFist = (s) => {
+  return s.slice(1,s.length)
+}
