@@ -15,5 +15,5 @@ const isAllUpperCase = (string) => {
 }
 
 const capitalizeFirstThree = (s) => {
-  return s.slice(0,2).toUpperCase() + s.slice(2).toLowerCase()
+  return s.slice(0,3).toUpperCase() + s.slice(3).toLowerCase()
 }
