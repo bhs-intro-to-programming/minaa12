@@ -44,3 +44,11 @@ const firstCharacter = (s) => {
 const secondHalf = (s) => {
   return s.slice(s.length/2, s.length)
 }
+const stringContains = (s1,s2) => {
+  if (s1.indexOf(s2) === (-1)) {
+    return false 
+  }
+  if (s1.indexOf(s2) != (-1))
+    return true
+}
+
