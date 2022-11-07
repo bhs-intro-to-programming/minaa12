@@ -57,3 +57,7 @@ const findFnord = (s) => {
     }
     return true
   }
+
+  const firstHalf = (s) => {
+    return s.slice (0,s.length/2)
+  }
