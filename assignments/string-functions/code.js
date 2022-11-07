@@ -28,3 +28,7 @@ const lastThree = (s) => {
 const firstThree = (s) => {
   return s.slice(0,3)
 }
+
+const allButFirstAndLast = (s) => {
+  return s.slice(1,s.length-1)
+}
