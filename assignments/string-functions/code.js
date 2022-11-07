@@ -41,3 +41,6 @@ const lastCharacter = (s) => {
 const firstCharacter = (s) => {
   return s.slice(0,1)
 }
+const secondHalf = (s) => {
+  return s.slice(s.length/2, s.length)
+}
