@@ -21,3 +21,7 @@ const capitalizeFirstThree = (s) => {
 const capitalize = (s) => {
   return s[0].toUpperCase() + s.slice(1).toLowerCase()
 }
+
+const lastThree = (s) => {
+  return s.slice(s.length-3)
+}
