@@ -51,10 +51,9 @@ const stringContains = (s1,s2) => {
   return true
 }
 
-const findFnord = (fnord) => {
-  let i = 0
-  if (i != fnord) {
-    return (-1)
+const findFnord = (s) => {
+  if (s.indexOf(fnord) === (-1))
+    return false
   }
   return true
 }
