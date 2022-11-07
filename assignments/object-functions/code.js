@@ -3,6 +3,6 @@ const getX = (object) => {
 }
 
 const point = (x, y) => {
-  return { x: x, y: y}
+  return { x, y }
 }
 
