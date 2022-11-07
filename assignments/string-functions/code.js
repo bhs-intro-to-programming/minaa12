@@ -25,3 +25,6 @@ const capitalize = (s) => {
 const lastThree = (s) => {
   return s.slice(s.length-3)
 }
+const firstThree = (s) => {
+  return s.slice(0,3)
+}
