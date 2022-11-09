@@ -20,4 +20,4 @@ let rectangle = {
   length : 20
 }
 
-console.log(rectangle.lenght)
+console.log(rectangle.length)
