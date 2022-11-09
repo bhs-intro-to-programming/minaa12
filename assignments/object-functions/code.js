@@ -1,6 +1,6 @@
 let rectange = {
-  width : 10;
-  length : 20;
+  width : 10,
+  length : 20
 }
 
 const getX = (object) => {
