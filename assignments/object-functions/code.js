@@ -32,3 +32,12 @@ let rectangle2 = {
 }
 
 console.log(area(rectangle2))
+
+const largerR = (o1, o2) => {
+  let a1 = area(o1)
+  let a2 = area(o2)
+    if (a1>a2) return a1
+    else return a2
+}
+
+console.log(largerR(o1,o2))
