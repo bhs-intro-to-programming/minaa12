@@ -40,4 +40,4 @@ const largerR = (o1, o2) => {
     else return a2
 }
 
-console.log(largerR(a1,a2))
+console.log(largerR(rectangle2,rectangle))
