@@ -24,5 +24,4 @@ const area = (r) => {
   return r.width * r.length
 }
 
-console.log("hello mina")
-// console.log(area(rectangle))
+console.log(area(rectangle))
