@@ -23,5 +23,7 @@ let rectangle = {
 const area = (r) => {
   return r.width * r.length
 }
-
-console.log(area(rectangle))
+const joke = (o) => {
+  return o.width**2
+}
+console.log(joke(rectangle))
