@@ -26,4 +26,9 @@ const area = (r) => {
 const joke = (o) => {
   return o.width**2
 }
-console.log(joke(rectangle))
+console.log(area(rectangle2))
+let rectangle2 = {
+  width : 100,
+  length : 100
+}
+
