@@ -18,3 +18,7 @@ const distance = (o1,o2) => {
 const midpoint = (p1,p2) => {
   return { x: (p1.x + p2.x)/2, y: (p1.y + p2.y)/2}
 }
+
+const sumSalaries  = (arrayofobjects) => {
+  return (arrayofobjects.x + arrayofobjects.y)
+}
