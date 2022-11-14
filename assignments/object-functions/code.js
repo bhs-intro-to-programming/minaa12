@@ -29,3 +29,9 @@ const sumSalaries  = (objs) => {
   return s 
 }
 
+const newHighScore = (hs, players) => {
+  for (let i = 0; i < objs.length; i++) {
+    if (hs < players[i].score) {hs = players[i].score}
+  }
+  return hs
+}
