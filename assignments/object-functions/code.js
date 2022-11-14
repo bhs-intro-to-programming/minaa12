@@ -30,7 +30,7 @@ const sumSalaries  = (objs) => {
 }
 
 const newHighScore = (hs, players) => {
-  for (let i = 0; i < objs.length; i++) {
+  for (let i = 0; i < players.length; i++) {
     if (hs < players[i].score) {hs = players[i].score}
   }
   return hs
