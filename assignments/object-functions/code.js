@@ -1,4 +1,7 @@
 
+grade = { "name" : "mina", "grade" : "C"}
+console.log(grade.name)
+
 const getX = (object) => {
   return object.x
 }
