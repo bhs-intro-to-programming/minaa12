@@ -35,3 +35,13 @@ const newHighScore = (hs, players) => {
   }
   return hs
 }
+
+const summarizeBooks = (books) => {
+  let t = []
+  let p = []
+  for (let i = 0; i < books.length; i++) {
+   t.push (books[i].title)
+   p.push (books[i].pages)
+  }
+  return {titles: t, pages: p}
+}
