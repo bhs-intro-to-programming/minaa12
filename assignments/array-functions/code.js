@@ -41,3 +41,12 @@ const pyramid = (p) => {
   }
   return a
 }
+
+const thirdElement = (array) => {
+  let newArray = []
+  for (let i = 0; i < array.length; i++) {
+    if (i % 3 === 0) newArray.push(array[i])
+  }
+  return newArray
+}
+
