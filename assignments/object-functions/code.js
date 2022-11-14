@@ -29,9 +29,3 @@ const sumSalaries  = (objs) => {
   return s 
 }
 
-const findAli = (objs) => {
-  for (let i = 0; i < objs.length; i++) {
-   if  (objs[i].name === 'jeff') return objs[i]
-  }
-  return false
-}
