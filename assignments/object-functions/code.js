@@ -1,5 +1,5 @@
 
-grade = { name : "mina", grade : "C"}
+gradeObj = { name : "mina", grade : "C"}
 console.log(grade.name)
 
 const getX = (object) => {
