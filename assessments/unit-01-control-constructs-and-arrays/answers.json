@@ -7,7 +7,7 @@
   "10",
   "20",
   "6",
-  "The sum of the numbers from 0 to 10",
+  "The sum of the numbers from 0 to 9",
   "When Math.random() returns a number greater than 0.01",
   "It tests whether limit and max are both prime numbers.",
   "10",
