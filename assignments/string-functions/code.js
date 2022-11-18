@@ -69,3 +69,7 @@ const findFnord = (s) => {
   const upDown = (s) => {
     return s.toUpperCase() + s.toLowerCase()
   }
+
+  const swapFrontAndBack (s) => {
+    return s.slice (s.length/2, s.length-1) + s.slice (0, s.length/2)
+  }
