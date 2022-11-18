@@ -65,3 +65,7 @@ const findFnord = (s) => {
   const firstAndLast = (s) => {
     return s.slice (0,1) + s.slice (s.length-1)
   }
+
+  const upDown = (s) => {
+    return s.toUpperCase() + s.toLowerCase()
+  }
