@@ -71,3 +71,10 @@ const findFnord = (s) => {
     return s.slice (s.length/2, s.length) + s.slice (0, s.length/2)
   }
 
+ const firstName = (name) => {
+   
+ }
+
+ const upDownLastCharacter = (s) => {
+   return s.slice (s.length-1).toUpperCase() + s.slice (s.length-1).toLowerCase()
+ }
