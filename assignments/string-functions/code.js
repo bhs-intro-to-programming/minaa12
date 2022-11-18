@@ -52,7 +52,7 @@ const stringContains = (s1,s2) => {
 }
 
 const findFnord = (s) => {
-  return s.indexOf('Fnord')
+  return s.indexOf('fnord')
   }
 
   const firstHalf = (s) => {
