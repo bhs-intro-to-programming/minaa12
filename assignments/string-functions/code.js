@@ -71,5 +71,5 @@ const findFnord = (s) => {
   }
 
   const swapFrontAndBack = (s) => {
-    return s.slice (s.length/2, s.length-1) + s.slice (0, s.length/2)
+    return s.slice (s.length/2, s.length) + s.slice (0, s.length/2)
   }
