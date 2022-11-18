@@ -52,10 +52,7 @@ const stringContains = (s1,s2) => {
 }
 
 const findFnord = (s) => {
-  if (s.indexOf(fnord) === (-1)) {
-    return false
-    }
-    return true
+  return s.indexOf('Fnord')
   }
 
   const firstHalf = (s) => {
@@ -73,3 +70,4 @@ const findFnord = (s) => {
   const swapFrontAndBack = (s) => {
     return s.slice (s.length/2, s.length) + s.slice (0, s.length/2)
   }
+
