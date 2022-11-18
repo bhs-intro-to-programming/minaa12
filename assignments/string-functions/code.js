@@ -63,5 +63,5 @@ const findFnord = (s) => {
   }
 
   const firstAndLast = (s) => {
-    return s.slice (0, s.length-1)
+    return s.slice (0,1) + (s.length-1)
   }
