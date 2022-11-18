@@ -61,3 +61,7 @@ const findFnord = (s) => {
   const firstHalf = (s) => {
     return s.slice (0,s.length/2)
   }
+
+  const firstAndLast = (s) => {
+    return s.slice (0 && s.length-1)
+  }
