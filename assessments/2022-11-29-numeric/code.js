@@ -11,6 +11,6 @@ const extraChocolates = (chocolates, people) => {
 
 const leftOut = (chocolates, p) => {
   let peoples = 0 
-  if (chocolates/p > 0) return peoples
+  if (chocolates % p > 0) return peoples
   else return false
 }
