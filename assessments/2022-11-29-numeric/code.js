@@ -9,8 +9,8 @@ const extraChocolates = (chocolates, people) => {
   return chocolates % people
 }
 
-const leftOut = (chocolates, people) => {
-  let people = 0 
-  if (chocolates/people > 0) return people
+const leftOut = (chocolates, p) => {
+  let peoples = 0 
+  if (chocolates/p > 0) return peoples
   else return false
 }
