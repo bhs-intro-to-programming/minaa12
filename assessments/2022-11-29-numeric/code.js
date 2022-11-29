@@ -18,5 +18,10 @@ const probabilityAllHeads = (numberofflips) => {
 }
 
 const futureHour = (currenthour, future) => {
-  return currenthour + future < 24 
+  return currenthour + future
 }
+
+const presentBudget = (numberoffriends, averageprice) => {
+  return numberoffriends * averageprice 
+}
+
