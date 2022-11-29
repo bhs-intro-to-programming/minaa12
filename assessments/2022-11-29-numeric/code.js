@@ -33,3 +33,6 @@ const wrapingCombos = (paper, ribbons, bows) => {
   return paper * ribbons * bows
 }
 
+const biggestNumber = (digits) => {
+  Math.max(digits)
+}
