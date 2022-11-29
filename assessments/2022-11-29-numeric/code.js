@@ -26,5 +26,5 @@ const presentBudget = (numberoffriends, averageprice) => {
 }
 
 const perPresent = (totalmoney, presents) => {
-  totalmoney/presents
+  return totalmoney/presents
 }
