@@ -28,3 +28,7 @@ const presentBudget = (numberoffriends, averageprice) => {
 const perPresent = (totalmoney, presents) => {
   return totalmoney/presents
 }
+
+const wrapingCombos = (paper, ribbons, bows) => {
+  return paper * ribbons * bows
+}
