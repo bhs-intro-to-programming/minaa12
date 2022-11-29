@@ -14,5 +14,5 @@ const leftOut = (chocolates, p) => {
 }
 
 const probabilityAllHeads = (numberofflips) => {
-  return numberofflips ** 2
+  return numberofflips/2
 }
