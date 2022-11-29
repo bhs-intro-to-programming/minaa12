@@ -10,7 +10,7 @@ const extraChocolates = (chocolates, people) => {
 }
 
 const leftOut = (chocolates, p) => {
- 
+ return Math.floor (chocolates % people)
 }
 
 const probabilityAllHeads = (numberofflips) => {
@@ -32,3 +32,4 @@ const perPresent = (totalmoney, presents) => {
 const wrapingCombos = (paper, ribbons, bows) => {
   return paper * ribbons * bows
 }
+
