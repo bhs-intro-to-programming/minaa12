@@ -21,7 +21,9 @@ const okaySpeed = (sl, speed) => {
 }
 
 const twiceAsExpensive = (p1, p2) => {
-  if (p1 > p2 * 2 ) return true 
+  if (p1 > p2 * 2 ) { return true
+  } 
+  else return false
 }
 
 const winningRecord = (win, loss, tie) => {
