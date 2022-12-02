@@ -27,7 +27,7 @@ const twiceAsExpensive = (p1, p2) => {
 }
 
 const winningRecord = (win, loss, tie) => {
-  return wins (wins + losses + ties) /2
+  return (win + loss + tie) /2
 }
 
 const isMagicNumber = (n) => {
