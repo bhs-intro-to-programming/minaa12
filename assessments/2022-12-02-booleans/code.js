@@ -31,5 +31,5 @@ const winningRecord = (win, loss, tie) => {
 }
 
 const isMagicNumber = (n) => {
-  return n === 42 || 17
+  if (n === 42 || 17) return true 
 }
