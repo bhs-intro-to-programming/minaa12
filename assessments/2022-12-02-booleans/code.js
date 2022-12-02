@@ -29,3 +29,9 @@ const twiceAsExpensive = (p1, p2) => {
 const winningRecord = (win, loss, tie) => {
   return 
 }
+
+const isMagicNumber = (n) => {
+  if (n === 42 || 17) { return true 
+  }
+  else return false
+}
