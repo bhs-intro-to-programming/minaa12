@@ -15,7 +15,9 @@ const isVenomous = (striped, blue) => {
 }
 
 const okaySpeed = (sl, speed) => {
-  if (speed < sl) return true 
+  if (speed < sl) {
+    return true 
+  } 
 }
 
 const twiceAsExpensive = (p1, p2) => {
