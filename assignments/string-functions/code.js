@@ -89,6 +89,10 @@ const findFnord = (s) => {
    return s1 + s2
  }
 
+ const everyOther = () => {
+   
+ }
+
  const sameIgnoringCase = (s1, s2) => {
    if (s1.toUpperCase() === s2.toUpperCase()) { 
      return true }
