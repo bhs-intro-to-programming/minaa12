@@ -90,7 +90,7 @@ const findFnord = (s) => {
  }
 
  const everyOther = () => {
-   
+   return s.slice (0, 2, 4)
  }
 
  const sameIgnoringCase = (s1, s2) => {
