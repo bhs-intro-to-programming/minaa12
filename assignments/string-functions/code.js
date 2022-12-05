@@ -100,5 +100,7 @@ const findFnord = (s) => {
  }
 
  const simplePigLatin = (word, number) => {
-   return number + (word(0, ) + 'ay') 
+   let b = word.slice(0, number)
+   let a = word.slice(number, word.length)
+   return a + b + 'ay'
  }
