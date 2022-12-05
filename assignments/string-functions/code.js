@@ -100,5 +100,5 @@ const findFnord = (s) => {
  }
 
  const simplePigLatin = (word, number) => {
-   return
+   return number + (word(0, ) + 'ay') 
  }
