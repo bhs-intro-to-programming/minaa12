@@ -76,6 +76,11 @@ const findFnord = (s) => {
    return n1
  }
 
+ const lastName = (fn) => {
+   let n2 = fn.slice(fn.indexOf(' '), fn.length)
+   return n2
+ }
+
  const upDownLastCharacter = (s) => {
    return s.slice (s.length-1).toUpperCase() + s.slice (s.length-1).toLowerCase()
  }
