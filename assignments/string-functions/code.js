@@ -89,8 +89,8 @@ const findFnord = (s) => {
    return s1 + s2
  }
 
- const everyOther = () => {
-   return s.slice (0, 2, 4)
+ const everyOther = (s) => {
+   return s[0]
  }
 
  const sameIgnoringCase = (s1, s2) => {
