@@ -89,7 +89,7 @@ const findFnord = (s) => {
    return s1 + s2
  }
 
- const sameIgnorningCase = (s1, s2) => {
+ const sameIgnoringCase = (s1, s2) => {
    if (s1 === s2) { 
      return true }
      else return false
