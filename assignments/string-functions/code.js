@@ -72,7 +72,7 @@ const findFnord = (s) => {
   }
 
  const firstName = (name) => {
-   let n1 = s.slice(0, name.indexOf(' '))
+   let n1 = name.slice(0, name.indexOf(' '))
    return n1
  }
 
