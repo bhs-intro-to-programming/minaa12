@@ -77,7 +77,7 @@ const findFnord = (s) => {
  }
 
  const lastName = (fn) => {
-   let n2 = fn.slice(fn.indexOf(' '), fn.length)
+   let n2 = fn.slice(fn.indexOf(' ') + 1, fn.length)
    return n2
  }
 
