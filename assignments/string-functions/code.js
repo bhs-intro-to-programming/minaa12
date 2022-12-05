@@ -84,3 +84,7 @@ const findFnord = (s) => {
  const upDownLastCharacter = (s) => {
    return s.slice (s.length-1).toUpperCase() + s.slice (s.length-1).toLowerCase()
  }
+
+ const concatenate = (s1, s2) => {
+   return s1 + s2
+ }
