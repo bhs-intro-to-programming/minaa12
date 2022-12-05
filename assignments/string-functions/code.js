@@ -98,3 +98,7 @@ const findFnord = (s) => {
      return true }
      else return false
  }
+
+ const simplePigLatin = (word, number) => {
+   return
+ }
