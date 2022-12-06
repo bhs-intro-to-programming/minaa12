@@ -3,7 +3,7 @@ const upToX = (s) => {
 }
 
 const charactersAround = (s, i) => {
-  return s.slice(i - 1, i + 1)
+  return s.slice(i - 1, i + 2)
 }
 
 const middle = (s) => {
