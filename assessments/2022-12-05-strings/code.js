@@ -31,5 +31,5 @@ const capitalize = (s) => {
 const capitalizeName = (s) => {
   let n = s.slice(0, s.indexOf(' '))
   let x = s.slice(s.indexOf(' ') + 1, s.length)
-  return capitalize(n) + capitalize(x)
+  return capitalize(n) + (' ') + capitalize(x)
 }
