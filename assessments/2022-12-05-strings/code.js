@@ -16,6 +16,6 @@ const pair = (s1, s2) => {
 
 const containsX = (s) => {
   if (s === 'x') { return true 
-else return false
   }
+  else return false
 }
