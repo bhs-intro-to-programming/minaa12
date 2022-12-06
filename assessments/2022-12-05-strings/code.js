@@ -7,7 +7,7 @@ const charactersAround = (s, i) => {
 }
 
 const middle = (s) => {
-  return s.slice(s.length/2 - 2)
+  return s.slice(s.length/2 - 1/4)
 }
 
 const pair = (s1, s2) => {
