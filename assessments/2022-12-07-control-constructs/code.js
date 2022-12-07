@@ -87,7 +87,7 @@ return log(s)
 const firstOk = (n) => {
   n > i >= 0 
   for (let i = 0; i < n.length; i++) {
-return i
+return i 
   }
 }
 
