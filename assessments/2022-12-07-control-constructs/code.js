@@ -109,5 +109,9 @@ const threewayClassify = (a) => {
 }
 
 const sumOfSquares = (n) => {
-  return n - n.length + (0, n.length)
+  let s = 0
+  for (let i = 0; i > n; i++) {
+    s = s + i
+  }
+  return s 
 }
