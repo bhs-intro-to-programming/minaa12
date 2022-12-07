@@ -78,3 +78,36 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+const logIfOk = (s) => {
+  if (isOk(s) == true) { 
+return log(s)
+  }
+}
+
+const firstOk = (n) => {
+  if (isOk(n)) return 
+}
+
+const timeToLeet = () => {
+
+}
+
+const classify = (a) => {
+  if (isOk(a) == true) { console.log(recordOk(a))
+  }
+  else console.log(recordNotOk(a))
+}
+
+const threewayClassify = (a) => {
+  if (isOk(a) == 'okay') {
+    return console.log(recordOk(a))
+  }
+  if (isMeh(a) == 'meh') {
+    return console.log(recordMeh(a))
+  }
+  else console.log(recordNotOk)
+}
+
+const sumOfSquares = (n) => {
+  return n - n.length + (0, n.length)
+}
