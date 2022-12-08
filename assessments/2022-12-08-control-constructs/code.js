@@ -8,6 +8,7 @@ const yesIfEven = (n) => {
 const countXs = (s) => {
   let x = 0
 
+
 }
 
 const timesTable = (n) => {
@@ -23,7 +24,7 @@ else return false
 const sumSquares = (n) => {
   let sum = 0
   for (let i = 0; i < n; i++) {
-    sum = i + i**2 
+    sum = sum + i**2 
   }
   return sum
 }
