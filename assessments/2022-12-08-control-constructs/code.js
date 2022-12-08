@@ -16,6 +16,14 @@ const timesTable = (n) => {
 }
 
 const containsX = (s) => {
+  for(let i = 0; i < s.length; i++) {
+    if (s === s.indexOf('x')) { return true
+    }
+    else return false
+  }
+}
+ 
+const containsX = (s) => {
   if (s.indexOf('x')) { return true
   }
 else return false
