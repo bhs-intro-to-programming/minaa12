@@ -24,10 +24,10 @@ const containsX = (s) => {
 }
  
 //const containsX = (s) => {
-  if (s.indexOf('x')) { return true
-  }
-else return false
-}
+ // if (s.indexOf('x')) { return true
+ // }
+//else return false
+//}
 
 const sumSquares = (n) => {
   let sum = 0
