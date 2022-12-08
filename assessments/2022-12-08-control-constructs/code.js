@@ -4,3 +4,16 @@ const yesIfEven = (n) => {
   }
   else return 'no'
 }
+
+const countXs = (s) => {
+  let x = 0
+
+}
+
+const timesTable = (n) => {
+
+}
+
+const containsX = (s) => {
+  return (s.indexOf('x'))
+}
