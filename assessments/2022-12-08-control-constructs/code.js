@@ -23,7 +23,7 @@ const containsX = (s) => {
   }
 }
  
-const containsX = (s) => {
+//const containsX = (s) => {
   if (s.indexOf('x')) { return true
   }
 else return false
