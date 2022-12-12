@@ -7,5 +7,12 @@ const makeRow = () => {
 }
 
 const makeBoard = () => {
-  let m = []
+  
+}
+
+// s specifies 'X' or 'O'
+// r specifies a row
+// c specifies a column 
+const makeMove = (s, r, c ) => {
+  return {mark: s, row: r, column: c}
 }
