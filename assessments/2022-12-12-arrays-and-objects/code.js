@@ -28,3 +28,15 @@ const allTheSame = (a) => {
     else return false
   }
 }
+
+const extractColumn = () => {
+
+}
+
+const recordMove = (array, objm) => {
+  let t = [] 
+  for(let i = 0; i < array.length; i++) {
+    array.push(objm)
+  }
+  return t
+}
