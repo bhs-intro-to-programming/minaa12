@@ -22,9 +22,12 @@ const totalWithTip = (bill, tipPercentage) => {
 };
 
 const isWinner = (player) => {
-  if (player.score > 100) { return true
+  if (player.score > 100) { 
+    return true
   }
-  else return false
+  else {
+    return false
+  }
 };
 
 const updateWins = (players) => {
