@@ -21,7 +21,7 @@ const makeMove = (s, r, c) => {
   return { mark: s, row: r, column: c }
 }
 
-const placeMark = () => {
+const placeMark = (array, obj) => {
 
 }
 
@@ -34,7 +34,7 @@ const allTheSame = (a) => {
   }
 }
 
-const extractColumn = () => {
+const extractColumn = (array, index) => {
 
 }
 
@@ -47,3 +47,11 @@ const recordMove = (array, objm) => {
 }
 let moves = [];
 recordMove(moves, makeMove('X', 1, 2));
+
+const rowForMove = (array, n) => {
+
+}
+
+const placeMoves = (array, moves) => {
+  
+}
