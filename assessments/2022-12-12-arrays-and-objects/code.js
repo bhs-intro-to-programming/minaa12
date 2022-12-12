@@ -1,7 +1,7 @@
 const makeRow = () => {
   let s = []
   for(let i = 0;  i < 3; i++) {
-    s.push([''])
+    s.push('')
   }
   return s
 }
