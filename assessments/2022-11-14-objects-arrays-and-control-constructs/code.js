@@ -39,8 +39,19 @@ for (let i = 0; i < players.length; i++) {
 return undefined 
 };
 
-const bigWinners = (players) => {
+// players is an array of objections
+// each object has a .score and .wins property
+// this function returns a new array of objects (players) that have 
+// 10 wins
 
+const bigWinners = (players) => {
+  let m = []
+for(let i = 0; i < players.length; i++) {
+  if (players[i].wins > 10) {
+  m.push(players[i])
+  } 
+}
+return m
 };
 
 const fillTimesTable = (table) => {
