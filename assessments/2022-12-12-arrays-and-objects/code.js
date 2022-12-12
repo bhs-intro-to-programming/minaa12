@@ -3,4 +3,5 @@ const makeRow = () => {
   for(let i = 0;  i < 4; i++) {
     s.push([''])
   }
+  return s
 }
