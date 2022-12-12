@@ -7,7 +7,11 @@ const makeRow = () => {
 }
 
 const makeBoard = () => {
-
+let x = []
+  for (let i = 0; i < 3; i++) {
+    x.push([''])
+  }
+  return x
 }
 
 // s specifies 'X' or 'O'
@@ -37,7 +41,7 @@ const extractColumn = () => {
 const recordMove = (array, objm) => {
   let t = []
   for (let i = 0; i < array.length; i++) {
-    array.push([objm])
+    array.push(objm)
   }
   return t
 }
