@@ -16,3 +16,15 @@ const makeBoard = () => {
 const makeMove = (s, r, c ) => {
   return {mark: s, row: r, column: c}
 }
+
+const placeMark = () => {
+
+}
+
+const allTheSame = (a) => {
+  for(let i = 0; i < a.length; i++) {
+    if (a[0] === a[1] && a[0] === a[2]) { return true
+    }
+    else return false
+  }
+}
