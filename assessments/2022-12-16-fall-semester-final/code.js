@@ -212,3 +212,7 @@ const sumSquares = (n) => {
 const makeRow = () => {
   return ['', '','']
 }
+
+const makeBoard = () => {
+  return ['', '', '']['', '', '']['', '', '']
+}
