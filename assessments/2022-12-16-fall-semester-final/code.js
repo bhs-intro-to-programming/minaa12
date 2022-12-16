@@ -184,3 +184,13 @@ const allTheSame = (array) => {
   }
 else return false
 }
+
+//controlconstructs
+
+const threewayClassify = (v) => {
+  if (v === okay) { return recordOk(v)
+  }
+  if (v === meh) { return recordMeh(v)
+  }
+  else return recordNotOk(v)
+}
