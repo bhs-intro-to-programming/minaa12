@@ -258,3 +258,35 @@ const sameIgnoringCase = (s1, s2) => {
   }
   else return false
 }
+
+//booleans 
+
+const fireAlarm = (pulled, smoke, planned) => {
+  return pulled || smoke || planned
+}
+
+const canBePresident = (age, citezen, years) => {
+  return age >= 35 && citezen && years >=14
+}
+
+const willSeeTweet = (follows, retweet, blocked) => {
+  return follows || retweet || !blocked
+}
+
+const needHeavyCoat = (out, cold) => {
+  return out && cold
+}
+
+const needSunscreen = (beach, ski) => {
+  return beach || ski
+}
+
+const needMittens = (out, warm) => {
+  return out && !warm
+}
+
+const canSleepIn = (weekday, vacation) => {
+  if (!weekday || vacation) { return true
+  }
+  else return false
+}
