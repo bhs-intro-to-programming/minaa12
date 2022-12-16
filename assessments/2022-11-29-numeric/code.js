@@ -11,7 +11,7 @@ const chocolatesPerPerson = (c, p) => {
 }
 
 const extraChocolates = (c, p) => {
-  return p - c (chocolatesPerPerson(c, p)) 
+  return (p - c) (chocolatesPerPerson(c, p)) 
 }
 
 const probabilityAllHeads = (flips) => {
