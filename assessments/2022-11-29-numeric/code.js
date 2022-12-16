@@ -15,7 +15,8 @@ const extraChocolates = (chocolate, people) => {
 }
 
 const leftOut = (c, p) => {
-
+if (c > p) return 0
+return c % p
 }
 
 const probabilityAllHeads = (flips) => {
