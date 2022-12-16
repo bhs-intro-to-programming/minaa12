@@ -242,3 +242,7 @@ const upDown = (s) => {
 const upDownLastCharacter = (s) => {
   return s.slice(s.length - 1).toUpperCase() + s.slice(s.length - 1).toLowerCase()
 }
+
+const firstAndLast = (s) => {
+  return s[0] + s[s.length - 1]
+}
