@@ -252,3 +252,9 @@ const isAllUpperCase = (s) => {
   }
   else return false
 }
+
+const sameIgnoringCase = (s1, s2) => {
+  if (s1 === s2) { return true
+  }
+  else return false
+}
