@@ -248,7 +248,7 @@ const firstAndLast = (s) => {
 }
 
 const isAllUpperCase = (s) => {
-  if (s === s.toUpperCase) { return true
+  if (s === s.toUpperCase()) { return true
   }
   else return false
 }
