@@ -162,3 +162,15 @@ const higherPaid = (e1, e2) => {
   else return e2
 }
 
+const isWinner = (obj) => {
+  if (obj.score > 100) { return true
+  }
+  else return false
+}
+
+const sums = (n) => {
+  let a = []
+  for (let i = 0; i < n.length; i++) {
+  a = a + i
+  }
+}
