@@ -1,3 +1,3 @@
 const biggestNumber = (digits) => {
-  return digits * 10 - 1
+  return digits ** 2 - 1
 }
