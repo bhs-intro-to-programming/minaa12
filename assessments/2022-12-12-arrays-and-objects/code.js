@@ -9,7 +9,7 @@ const makeRow = () => {
 const makeBoard = () => {
 let x = []
   for (let i = 0; i < 3; i++) {
-    x.push(['', '', ''])
+    x.push(makeRow())
   }
   return x
 }
