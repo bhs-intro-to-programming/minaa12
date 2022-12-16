@@ -29,3 +29,7 @@ const wrappingCombos = (p, b, r) => {
 const perPresent = (total, n) => {
   return total/n
 }
+
+const presentBudget = (friend, price) => {
+  return friend * price
+}
