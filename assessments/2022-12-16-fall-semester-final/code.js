@@ -137,3 +137,21 @@ const perPresent = (total, n) => {
 const presentsBudget = (friend, price) => {
   return friend * price
 }
+
+//arrays
+
+const isSamePoint = (p1, p2) => {
+  if (p1.x === p2.x && p1.y === p2.y) { retur true
+  }
+  else return false
+}
+
+const area = (r) => {
+  return r.width * r.height
+}
+
+const totalWithTip = (o, n) => {
+  let t = o.subtotal * n
+  let all = o.subtotal + tip
+  return {subtotal: o.subtotal, tip: t, subtotal: all}
+}
