@@ -22,6 +22,6 @@ const futureHour = (current, future) => {
   return (current + future) % 24
 }
 
-const wrapingCombos = (p, b, r) => {
+const wrappingCombos = (p, b, r) => {
   return p *b * r 
 }
