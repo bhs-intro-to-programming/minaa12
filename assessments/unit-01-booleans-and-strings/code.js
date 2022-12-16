@@ -13,7 +13,7 @@ const fireAlarm = (pulled,detected,planned) => {
   return pulled || detected || planned
 }
 const canBePresident = (age, borncitezen, yearslived) => {
-  return age && borncitezen && yearslived
+  return (age >= 35) && borncitezen && yearslived >= 14
 }
 const willSeeTweet = (follows, retweeted, blocked) => {
   return follows || retweeted && !blocked 
