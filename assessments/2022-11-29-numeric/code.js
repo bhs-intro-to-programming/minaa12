@@ -25,3 +25,7 @@ const futureHour = (current, future) => {
 const wrappingCombos = (p, b, r) => {
   return p *b * r 
 }
+
+const perPresent = (total, n) => {
+  return total/n
+}
