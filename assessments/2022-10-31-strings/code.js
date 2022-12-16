@@ -40,8 +40,9 @@ const randomCharacter = () => {
 const randomCharacterUpDown = () => {
 return
 }
-const isAllUpperCase = () => {
-return
+const isAllUpperCase = (s) => {
+if (s === s.toUpperCase()) return true
+else return false
 }
 const sameIgnoringCase = () => {
   return 
