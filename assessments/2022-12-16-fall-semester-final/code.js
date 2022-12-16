@@ -194,3 +194,16 @@ const threewayClassify = (v) => {
   }
   else return recordNotOk(v)
 }
+
+const classify = (v) => {
+  if (v === isOk) { return recordOk(v)
+  }
+  else return recordNotOk(v)
+}
+
+const sumSquares = (n) => {
+  let sum = 0
+  for(let i = 0; i < n.length; i++) {
+    sum = sum + i**2
+  }
+}
