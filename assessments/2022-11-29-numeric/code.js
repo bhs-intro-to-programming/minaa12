@@ -10,8 +10,12 @@ const chocolatesPerPerson = (c, p) => {
   return Math.floor(c/p)
 }
 
-const extraChocolates = (c, p) => {
-  return (chocolatesPerPerson(c, p)) 
+const extraChocolates = (chocolate, people) => {
+  return people - chocolate (chocolatesPerPerson(c, p)) 
+}
+
+const leftOut = (c, p) => {
+
 }
 
 const probabilityAllHeads = (flips) => {
