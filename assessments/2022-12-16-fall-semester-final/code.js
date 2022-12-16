@@ -171,7 +171,7 @@ const isWinner = (obj) => {
 const sums = (n) => {
   let a = []
   for (let i = 0; i < n.length; i++) {
-  a.push([a + i])
+  a[i] = a + i
   }
   return a
 }
