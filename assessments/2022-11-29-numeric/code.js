@@ -6,9 +6,8 @@ const chocolatesPerPerson = (chocolate, people) => {
   return Math.floor(chocolate/people)
 }
 const extraChocolates = (chocolates, people) => {
-  return chocolates % people
+  return chocolates - people * chocolatesPerPerson(chocolates, people) 
 }
-
 const leftOut = (chocolates, p) => {
  return Math.floor (chocolates % people)
 }
