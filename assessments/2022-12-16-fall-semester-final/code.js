@@ -222,3 +222,7 @@ const makeBoard = () => {
 const firstFewEveryOther = (s) => {
   return s[0] + s[2] + s[4]
 }
+
+const firstHalf = (s) => {
+  return s.slice(0, s.length/2)
+}
