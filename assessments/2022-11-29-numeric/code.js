@@ -17,3 +17,7 @@ const extraChocolates = (c, p) => {
 const probabilityAllHeads = (flips) => {
   return .5 ** flips
 }
+
+const futureHour = (current, future) => {
+  return (current + future) % 24
+}
