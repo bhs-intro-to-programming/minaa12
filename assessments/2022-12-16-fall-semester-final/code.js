@@ -226,3 +226,11 @@ const firstFewEveryOther = (s) => {
 const firstHalf = (s) => {
   return s.slice(0, s.length/2)
 }
+
+const secondHalf = (s) => {
+  return s.slice(s.length/2, s.length)
+}
+
+const swapFrontAndBack = (s) => {
+  return secondHalf(s) + firstHalf(s)
+}
