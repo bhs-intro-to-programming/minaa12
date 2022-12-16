@@ -141,7 +141,7 @@ const presentsBudget = (friend, price) => {
 //arrays
 
 const isSamePoint = (p1, p2) => {
-  if (p1.x === p2.x && p1.y === p2.y) { retur true
+  if (p1.x === p2.x && p1.y === p2.y) { return true
   }
   else return false
 }
@@ -155,3 +155,4 @@ const totalWithTip = (o, n) => {
   let all = o.subtotal + tip
   return {subtotal: o.subtotal, tip: t, subtotal: all}
 }
+
