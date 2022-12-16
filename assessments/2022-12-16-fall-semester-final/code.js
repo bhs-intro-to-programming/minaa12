@@ -171,7 +171,13 @@ const isWinner = (obj) => {
 const sums = (n) => {
   let a = []
   for (let i = 0; i < n.length; i++) {
-  a.push(a = a + i - 1)
+ 
   }
   return a
+}
+
+const allTheSame = (array) => {
+  if (array[0] === array[1] && array[1] === array[2]) { return true
+  }
+else return false
 }
