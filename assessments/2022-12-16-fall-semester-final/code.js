@@ -171,13 +171,6 @@ const isWinner = (obj) => {
   else return false
 }
 
-const sums = (n) => {
-  let a = []
-  for (let i = 0; i < n.length; i++) {
- 
-  }
-  return a
-}
 
 const allTheSame = (array) => {
   if (array[0] === array[1] && array[1] === array[2]) { return true
@@ -288,5 +281,10 @@ const needMittens = (out, warm) => {
 const canSleepIn = (weekday, vacation) => {
   if (!weekday || vacation) { return true
   }
+  else return false
+}
+
+const evenGreaterThanZero = (n) => {
+  if (n/2 === 0 && n > 0) return true
   else return false
 }
