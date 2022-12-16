@@ -35,5 +35,5 @@ const wrapingCombos = (paper, ribbons, bows) => {
 }
 
 const biggestNumber = (digits) => {
-  return Math.max(digits)
+  return 10 ** digits - 1
 }
