@@ -206,4 +206,5 @@ const sumSquares = (n) => {
   for(let i = 0; i < n.length; i++) {
     sum = sum + i**2
   }
+  return sum
 }
