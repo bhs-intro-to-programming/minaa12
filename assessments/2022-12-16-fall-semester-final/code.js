@@ -208,3 +208,7 @@ const sumSquares = (n) => {
   }
   return sum
 }
+
+const makeRow = () => {
+  return ['', '','']
+}
