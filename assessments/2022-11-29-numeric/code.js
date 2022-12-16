@@ -30,6 +30,6 @@ const perPresent = (total, n) => {
   return total/n
 }
 
-const presentBudget = (friend, price) => {
+const presentsBudget = (friend, price) => {
   return friend * price
 }
